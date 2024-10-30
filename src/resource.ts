@@ -108,7 +108,8 @@ class Resource extends BaseResource {
 
   async create(params) {
     const parsedParams = this.parseParams(params)
-    let mongooseDocument = new this.MongooseModel(parsedParams)
+    const unflattedParams = flat.unflatten(parsedParams)
+    let mongooseDocument = new this.MongooseModel(unflattedParams)
     try {
       mongooseDocument = await mongooseDocument.save()
     } catch (error) {
