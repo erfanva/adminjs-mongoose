@@ -19,6 +19,16 @@ AdminJS.registerAdapter(AdminJSMongoose)
 
 More options can be found on [AdminJS](https://github.com/SoftwareBrothers/adminjs) official website.
 
+## Contribute
+
+If you would like work on an AdminJS and develop new features please check out our [Contribution Guide](https://github.com/SoftwareBrothers/adminjs/blob/master/CONTRIBUTING.md)
+
+There you can find instructions on how to run AdminJS locally for development.
+
+If you're searching for tasks you can contribute to, we currently accept contributions to issues in our [Kanban Board](https://github.com/orgs/SoftwareBrothers/projects/5/views/1).
+
+Any small or large contribution or any input into discussion is welcome!
+
 ## License
 
 AdminJS is copyrighted © 2023 rst.software. It is a free software, and may be redistributed under the terms specified in the [LICENSE](LICENSE.md) file.
